@@ -1,0 +1,36 @@
+seed: 42
+
+dataset:
+  name: mitdb
+  sampling_frequency: 360
+  classes: [N, A, V, L, R, P]
+  paced_annotation_symbol: "/"
+  preferred_leads: [MLII, II]
+
+segmentation:
+  samples_before_r: 90
+  samples_after_r: 162
+  expected_length: 252
+
+wavelet:
+  family: bior6.8
+  level: 8
+  boundary_mode: determine_during_reproduction
+  detail_levels: [1, 2, 3, 4, 5, 6, 7, 8]
+  include_final_approximation: false
+  expected_feature_count: 373
+
+pca:
+  components: 12
+
+svm:
+  kernel: rbf
+  C: 10
+  gamma: 0.1
+  class_weight: null
+
+validation:
+  folds: 10
+  beat_based: true
+  record_based: true
+

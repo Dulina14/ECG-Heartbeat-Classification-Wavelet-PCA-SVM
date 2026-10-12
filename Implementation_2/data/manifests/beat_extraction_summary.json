@@ -1,0 +1,39 @@
+{
+  "records_processed": 48,
+  "sampling_frequency_hz": 360,
+  "samples_before_r_peak": 90,
+  "samples_after_r_peak": 162,
+  "beat_length": 252,
+  "matrix_shape": [
+    107049,
+    252
+  ],
+  "matrix_dtype": "float32",
+  "selected_annotations_before_filtering": 107090,
+  "boundary_beats_discarded": 41,
+  "final_beat_count": 107049,
+  "paper_reported_final_beat_count": 107049,
+  "matches_paper_reported_total": true,
+  "class_counts_after_filtering": {
+    "N": 75022,
+    "A": 2546,
+    "V": 7129,
+    "L": 8072,
+    "R": 7255,
+    "P": 7025
+  },
+  "discarded_by_class": {
+    "N": 30,
+    "A": 0,
+    "V": 1,
+    "L": 3,
+    "R": 4,
+    "P": 3
+  },
+  "files": {
+    "beats": "data/interim/beats_252.npy",
+    "labels": "data/interim/labels.npy",
+    "record_ids": "data/interim/record_ids.npy",
+    "metadata": "data/interim/beat_metadata.csv"
+  }
+}

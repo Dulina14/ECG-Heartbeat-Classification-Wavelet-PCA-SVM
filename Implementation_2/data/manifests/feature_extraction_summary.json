@@ -1,0 +1,67 @@
+{
+  "number_of_beats": 107049,
+  "samples_per_beat": 252,
+  "wavelet": "bior6.8",
+  "decomposition_level": 8,
+  "boundary_mode": "symmetric",
+  "pywt_coefficient_order": [
+    "cA8",
+    "cD8",
+    "cD7",
+    "cD6",
+    "cD5",
+    "cD4",
+    "cD3",
+    "cD2",
+    "cD1"
+  ],
+  "coefficient_lengths": [
+    17,
+    17,
+    18,
+    20,
+    24,
+    31,
+    46,
+    75,
+    134
+  ],
+  "retained_order": [
+    "cD1",
+    "cD2",
+    "cD3",
+    "cD4",
+    "cD5",
+    "cD6",
+    "cD7",
+    "cD8"
+  ],
+  "approximation_discarded": "cA8",
+  "wavelet_features_per_beat": 365,
+  "paper_reported_wavelet_features": 373,
+  "wavelet_output_shape": [
+    107049,
+    365
+  ],
+  "wavelet_output_dtype": "float32",
+  "wavelet_elapsed_seconds": 20.360864599992055,
+  "rr_feature_names": [
+    "pre_RR",
+    "post_RR",
+    "pre_RR/record_mean",
+    "post_RR/record_mean",
+    "pre_RR/local_mean",
+    "pre_RR/post_RR"
+  ],
+  "rr_local_window": 10,
+  "rr_reference_definition": "Exact Implementation_1 behavior: intervals between adjacent entries in the complete MIT-BIH annotation sequence.",
+  "rr_beat_only_definition": "Intervals between adjacent true beat/QRS annotations only.",
+  "rr_rows_different_between_definitions": 107049,
+  "selected_beats_with_nonbeat_previous_annotation": 2512,
+  "selected_beats_with_nonbeat_next_annotation": 2441,
+  "files": {
+    "wavelet": "data/interim/wavelet_features_bior68_l8_symmetric.npy",
+    "rr_reference": "data/interim/rr_features_reference.npy",
+    "rr_beat_only": "data/interim/rr_features_beat_only.npy"
+  }
+}

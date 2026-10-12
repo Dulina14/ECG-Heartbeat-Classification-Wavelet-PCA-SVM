@@ -1,0 +1,13 @@
+wfdb
+numpy
+pandas
+scipy
+PyWavelets
+scikit-learn
+matplotlib
+seaborn
+joblib
+PyYAML
+pyarrow
+pytest
+

@@ -1,0 +1,19 @@
+{
+  "record_count": 48,
+  "sampling_frequency_hz": 360,
+  "selected_beat_count_before_window_filtering": 107090,
+  "paper_reported_final_beat_count": 107049,
+  "note": "The final count is checked after removing beats whose complete 252-sample window does not fit inside a record.",
+  "class_counts_before_window_filtering": {
+    "N": 75052,
+    "A": 2546,
+    "V": 7130,
+    "L": 8075,
+    "R": 7259,
+    "P": 7028
+  },
+  "selected_lead_counts": {
+    "MLII": 46,
+    "V5": 2
+  }
+}

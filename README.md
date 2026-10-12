@@ -6,6 +6,8 @@ This repository contains the research paper selected for the **BM4152 Biosignal 
 
 - [Research paper](./Combining%20Low-dimensional.pdf)
 - [Mid-review presentation](./BM4152PAPER%20IMPLEMENTATION.pdf)
+- [Implementation 1](./Implementation_1)
+- [Implementation 2: audited reproduction and completed extension](./Implementation_2)
 
 ## Research objective
 

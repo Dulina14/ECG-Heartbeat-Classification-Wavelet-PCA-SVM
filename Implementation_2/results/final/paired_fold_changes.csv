@@ -1,0 +1,19 @@
+scheme,model,model_label,metric,mean_paired_change_percentage_points,std_paired_change_percentage_points,folds_improved,folds_unchanged,folds_worsened
+beat,weighted,Weighted SVM,overall_accuracy,-0.6679206557990526,0.15645045761683357,0,0,10
+beat,weighted,Weighted SVM,balanced_accuracy,1.4739452720245012,0.43784449421295313,10,0,0
+beat,weighted,Weighted SVM,macro_F1,-1.651516055770142,0.48778370497953455,0,0,10
+beat,rr,PCA + RR,overall_accuracy,0.38580399475260235,0.10634689525488318,10,0,0
+beat,rr,PCA + RR,balanced_accuracy,2.023290031367897,0.4581520417377169,10,0,0
+beat,rr,PCA + RR,macro_F1,1.3578429739828608,0.36193047926559874,10,0,0
+beat,weighted_rr,Weighted PCA + RR,overall_accuracy,0.25875950986121266,0.14447771596063633,10,0,0
+beat,weighted_rr,Weighted PCA + RR,balanced_accuracy,2.2989038244221702,0.5297659181698403,10,0,0
+beat,weighted_rr,Weighted PCA + RR,macro_F1,0.978859743163025,0.4596927985831829,10,0,0
+record,weighted,Weighted SVM,overall_accuracy,-5.690139434878409,9.847377659452533,0,0,10
+record,weighted,Weighted SVM,balanced_accuracy,-0.17170241074117207,4.649153725047281,6,0,4
+record,weighted,Weighted SVM,macro_F1,0.11185806483239524,2.5365494995688818,6,0,4
+record,rr,PCA + RR,overall_accuracy,6.112483434493587,5.678092419450676,10,0,0
+record,rr,PCA + RR,balanced_accuracy,8.638906025476055,5.459886780337611,10,0,0
+record,rr,PCA + RR,macro_F1,9.527713008340811,5.926342860823757,10,0,0
+record,weighted_rr,Weighted PCA + RR,overall_accuracy,6.246246645519373,5.47663156258906,10,0,0
+record,weighted_rr,Weighted PCA + RR,balanced_accuracy,9.991382770774939,4.099586130398089,10,0,0
+record,weighted_rr,Weighted PCA + RR,macro_F1,10.291703169436753,4.915524939436096,10,0,0

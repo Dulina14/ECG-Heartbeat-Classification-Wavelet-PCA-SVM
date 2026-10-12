@@ -1,0 +1,18 @@
+.venv/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Downloaded and generated data
+data/raw/
+data/interim/
+data/processed/
+models/
+
+# Large source archive
+mit-bih-arrhythmia-database-1.0.0.zip
+
+# Generated run logs
+results/logs/
+
