@@ -1,4 +1,4 @@
-seed: 42
+seed: 0
 
 dataset:
   name: mitdb
@@ -15,10 +15,11 @@ segmentation:
 wavelet:
   family: bior6.8
   level: 8
-  boundary_mode: determine_during_reproduction
+  boundary_mode: symmetric
   detail_levels: [1, 2, 3, 4, 5, 6, 7, 8]
   include_final_approximation: false
-  expected_feature_count: 373
+  expected_feature_count: 365
+  paper_reported_feature_count: 373
 
 pca:
   components: 12
@@ -33,4 +34,3 @@ validation:
   folds: 10
   beat_based: true
   record_based: true
-
